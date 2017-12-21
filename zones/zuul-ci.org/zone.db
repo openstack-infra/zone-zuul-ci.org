@@ -2,12 +2,12 @@
 $ORIGIN zuul-ci.org.
 $TTL 5m
 @		IN	SOA	ns1.openstack.org. hostmaster.openstack.org. (
-			1513365986  ; serial number unixtime
+			1513894529  ; serial number unixtime
 			1h          ; refresh (secondary checks for updates)
 			10m         ; retry   (secondary retries failed axfr)
 			10d         ; expire  (secondary ends serving old data)
 			5m  )       ; min ttl (cache time for failed lookups)
 @		IN	NS	ns1.openstack.org.
-@		IN	NS	ns2.openstack.org.
+@		IN	NS	ns3.openstack.org.
 
 lists		IN	CNAME	lists.openstack.org.
