@@ -2,7 +2,7 @@
 $ORIGIN zuul-ci.org.
 $TTL 5m
 @		IN	SOA	adns1.openstack.org. hostmaster.openstack.org. (
-			1515860138  ; serial number unixtime
+			1515959169  ; serial number unixtime
 			1h          ; refresh (secondary checks for updates)
 			10m         ; retry   (secondary retries failed axfr)
 			10d         ; expire  (secondary ends serving old data)
