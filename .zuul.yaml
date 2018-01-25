@@ -1,5 +1,4 @@
 - project:
-    name: openstack-infra/zone-zuul-ci.org
     check:
       jobs:
         - noop
