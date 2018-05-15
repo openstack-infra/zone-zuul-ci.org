@@ -1,0 +1,15 @@
+; -*- mode: zone -*-
+$ORIGIN zuulci.org.
+$TTL 5m
+@		IN	SOA	adns1.openstack.org. hostmaster.openstack.org. (
+			1526407318  ; serial number unixtime
+			1h          ; refresh (secondary checks for updates)
+			10m         ; retry   (secondary retries failed axfr)
+			10d         ; expire  (secondary ends serving old data)
+			5m  )       ; min ttl (cache time for failed lookups)
+@		IN	NS	ns1.zuul-ci.org.
+@		IN	NS	ns2.zuul-ci.org.
+@		IN	A	23.253.125.17
+@		IN	AAAA	2001:4800:7817:103:be76:4eff:fe04:e3e3
+www		IN	A	23.253.125.17
+www		IN	AAAA	2001:4800:7817:103:be76:4eff:fe04:e3e3
