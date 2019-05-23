@@ -1,7 +1,7 @@
 - project:
     check:
       jobs:
-        - noop
+        - validate-zone-db
     gate:
       jobs:
-        - noop
+        - validate-zone-db
