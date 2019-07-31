@@ -1,7 +1,0 @@
-- project:
-    check:
-      jobs:
-        - validate-zone-db
-    gate:
-      jobs:
-        - validate-zone-db
